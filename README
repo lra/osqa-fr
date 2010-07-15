@@ -1,1 +1,7 @@
-This is a WIP french translation of osqa
+This is a WIP french translation of OSQA
+
+To test it, put it in the following folder of your OSQA installation:
+locale/fr/LC_MESSAGES
+
+And launch the command:
+django-admin compilemessages
