@@ -710,15 +710,15 @@ msgstr "rejoint"
 #: forum/actions/user.py:20
 #, python-format
 msgid "%(user)s %(have_has)s joined the %(app_name)s Q&A community"
-msgstr "%(user)s est un nouveau membre de %(app_name)s"
+msgstr "%(user)s %(have_has)s un nouveau membre de %(app_name)s"
 
 #: forum/actions/user.py:22
 msgid "have"
-msgstr "ont"
+msgstr "est"
 
 #: forum/actions/user.py:22
 msgid "has"
-msgstr "a"
+msgstr "est"
 
 #: forum/actions/user.py:27
 msgid "edited profile"
@@ -764,7 +764,7 @@ msgstr "%(user)s a donné %(value)s point de reputation à %(users)s: %(message)
 #: forum/actions/user.py:67
 #, python-format
 msgid "%(user)s penalised %(users)s in %(value)s reputation points: %(message)s"
-msgstr "%(user)s a privé %(user)s de %(value)s points de réputation: %(message)s"
+msgstr "%(user)s a privé %(users)s de %(value)s points de réputation: %(message)s"
 
 #: forum/actions/user.py:75
 msgid "was awarded"
@@ -3126,7 +3126,7 @@ msgstr "La question a été fermée pour la raison suivante \"%(close_reason)s\"
 #: forum/skins/default/templates/question.html:113
 #, python-format
 msgid "One Answer:"
-msgid_plural "%(counter)s Answers:"
+msgstr "Une Réponse:"
 
 #: forum/skins/default/templates/question.html:162
 msgid "Your answer"
@@ -4877,6 +4877,7 @@ msgid ""
 msgstr ""
 "\n"
 "    Ici, vous pouvez décider quels types de notifications vous souhaitez recevoir, et leur fréquence.<br />\n"
+"    "
 
 #: forum/skins/default/templates/users/subscriptions_settings.html:11
 msgid ""
@@ -4886,6 +4887,7 @@ msgid ""
 msgstr ""
 "\n"
 "    Vous n'avez aucune notification active. Vous pouvez toujours les arrêter sans les perdre et les relancer par la suite.<br />\n"
+"    "
 
 #: forum/skins/default/templates/users/subscriptions_settings.html:15
 msgid ""
@@ -4895,6 +4897,7 @@ msgid ""
 msgstr ""
 "\n"
 "    Vos notifications sont désactivées. Vous pouvez les activer en cliquant sur le bouton <strong>Démarrer les notifications</strong> ci-dessous.<br />\n"
+"    "
 
 #: forum/skins/default/templates/users/subscriptions_settings.html:26
 msgid "Notify me when:"
@@ -5377,11 +5380,11 @@ msgstr "Désolé, mais vous ne pouvez accepter cette réponse"
 
 #: forum/views/commands.py:313
 msgid "This question already has an accepted answer."
-msgid_plural "Sorry but this question has reached the limit of accepted answers."
+msgstr "Désolé cette question a déjà une réponse acceptée."
 
 #: forum/views/commands.py:320
 msgid "The author of this answer already has an accepted answer in this question."
-msgid_plural "Sorry but the author of this answer has reached the limit of accepted answers per question."
+msgstr "L'auteur de cette réponse a déjà une réponse acceptée pour cette question."
 
 #: forum/views/commands.py:335
 #: forum/views/commands.py:338
@@ -6448,253 +6451,4 @@ msgstr "Phrase test 3"
 #: locale/phrases.py:4
 msgid "Test Phrase n"
 msgstr "Phrase test n"
-
-#~ msgid ""
-#~ "\n"
-#~ "                    One Answer:\n"
-#~ "                    "
-#~ msgid_plural ""
-#~ "\n"
-#~ "                    %(counter)s Answers:\n"
-#~ "                    "
-#~ msgstr[0] ""
-#~ "\n"
-#~ "                    Une Réponse:\n"
-#~ "                    "
-#~ msgstr[1] ""
-#~ "\n"
-#~ "                    %(counter)s Réponses:\n"
-#~ "                    "
-#~ msgid "subscription settings"
-#~ msgstr "paramètres d'abonnement"
-#~ msgid "question is off-topic or not relevant"
-#~ msgstr "la question est hors-sujet"
-#~ msgid "too subjective and argumentative"
-#~ msgstr "trop subjectif et argumenté"
-#~ msgid "problem is not reproducible or outdated"
-#~ msgstr "le problème ne peut pas être reproduit ou est obsolète"
-#~ msgid "question contains offensive inappropriate, or malicious remarks"
-#~ msgstr ""
-#~ "la question contient des remarques offensives, inappropriées ou "
-#~ "malicieuses"
-#~ msgid "spam or advertising"
-#~ msgstr "publicité ou spam"
-#~ msgid "marked offensive"
-#~ msgstr "marqué comme offensif"
-#~ msgid "email update sent to user"
-#~ msgstr "mise à jour par email envoyée à l'utilisateur"
-#~ msgid "Weekly"
-#~ msgstr "Hebdomadairement"
-#~ msgid "please use 5 tags or less"
-#~ msgstr "svp utilisez 5 étiquettes au maximum"
-#~ msgid "Automatically accept user's contributions for the email updates"
-#~ msgstr ""
-#~ "Accepter automatiquement les contributions des utilisateurs par mail"
-#~ msgid "currency unit"
-#~ msgstr "devise"
-#~ msgid "author blog"
-#~ msgstr "blog de l'auteur"
-#~ msgid "buy online"
-#~ msgstr "acheter en ligne"
-#~ msgid "ask the author"
-#~ msgstr "demander à l'auteur"
-#~ msgid "What kinds of questions can I ask here?"
-#~ msgstr "Quel type de questions puis-je poser ici ?"
-#~ msgid "What questions should I avoid asking?"
-#~ msgstr "Quelles questions devrais-je éviter de poser ?"
-#~ msgid "What should I avoid in my answers?"
-#~ msgstr "Que dois-je éviter dans mes réponses"
-#~ msgid "Who moderates this community?"
-#~ msgstr "Qui modère cette communauté ?"
-#~ msgid "The short answer is: <strong>you</strong>."
-#~ msgstr "La réponse courte est: <strong>vous</strong>."
-#~ msgid "This website is moderated by the users."
-#~ msgstr "Ce site web est modéré par les utilisateurs."
-#~ msgid "How does reputation system work?"
-#~ msgstr "Comment fonctionne le système de réputation ?"
-#~ msgid "delete any questions and answers and perform other moderation tasks"
-#~ msgstr ""
-#~ "effacer toute question ou réponse et faire d'autre taches de modérations"
-#~ msgid "To register, do I need to create new password?"
-#~ msgstr "Pour m'enregistrer, dois-je créer un nouveau mot de passe ?"
-#~ msgid "Why other people can edit my questions/answers?"
-#~ msgstr ""
-#~ "Pourquoi d'autres personnes peuvent modifier mes questions/réponses ?"
-#~ msgid "Goal of this site is..."
-#~ msgstr "Le but de ce site est..."
-#~ msgid "If this approach is not for you, we respect your choice."
-#~ msgstr ""
-#~ "Si cette approche ne vous correspond pas, nous respectons votre choix."
-#~ msgid "."
-#~ msgstr "."
-#~ msgid "Sorry, looks like we have some errors:"
-#~ msgstr "Désolé, il semble que nous ayons des erreurs:"
-#~ msgid "Click to sign in through any of these services."
-#~ msgstr "Cliquez pour vous identifier à travers l'un de ces services."
-#~ msgid "Signup"
-#~ msgstr "S'inscrire"
-#~ msgid "You're seeing this because someone requested a temporary login link"
-#~ msgstr ""
-#~ "Vous lisez ceci car quelqu'un a demandé un lien d'authentification "
-#~ "temporaire"
-#~ msgid "avatar, see %(gravatar_faq_url)s"
-#~ msgstr "avatar, voir %(gravatar_faq_url)s"
-#~ msgid "Questions are sorted by the <strong>time of last update</strong>."
-#~ msgstr ""
-#~ "Les questions sont triées par <strong>date de dernière mise à jour</"
-#~ "strong>."
-#~ msgid "Questions sorted by <strong>number of responses</strong>."
-#~ msgstr "Questions triées par <strong>nombre de réponses</strong>."
-#~ msgid "Questions are sorted by the <strong>number of votes</strong>."
-#~ msgstr "Les questions sont triées par <strong>nombre de votes</strong>."
-#~ msgid "Unknown user %(number)d"
-#~ msgstr "Utilisateur %(number)d inconnu"
-
-#, fuzzy
-#~ msgid "the question is answered, right answer was accepted"
-#~ msgstr "cette question ou la réponse a été supprimé;"
-
-#, fuzzy
-#~ msgid "commented question"
-#~ msgstr "Questions connexes"
-
-#, fuzzy
-#~ msgid "commented answer"
-#~ msgstr "commenté"
-
-#, fuzzy
-#~ msgid "received award"
-#~ msgstr "Distinctions récentes"
-
-#, fuzzy
-#~ msgid "marked best answer"
-#~ msgstr "les plus anciennes réponses"
-
-#, fuzzy
-#~ msgid "upvote canceled"
-#~ msgstr "annuler"
-
-#, fuzzy
-#~ msgid "downvote canceled"
-#~ msgstr "enlever une voix"
-
-#, fuzzy
-#~ msgid "deleted question"
-#~ msgstr "Questions connexes"
-
-#, fuzzy
-#~ msgid "deleted answer"
-#~ msgstr "Modifier réponse"
-
-#, fuzzy
-#~ msgid "updated tags"
-#~ msgstr "Tags associés"
-
-#, fuzzy
-#~ msgid "selected favorite"
-#~ msgstr "favoris"
-
-#, fuzzy
-#~ msgid "completed user profile"
-#~ msgstr "Profil utilisateur completement rempli."
-
-#, fuzzy
-#~ msgid "question_answered"
-#~ msgstr "question posée"
-
-#, fuzzy
-#~ msgid "answer_accepted"
-#~ msgstr "Une réponse est acceptée"
-
-#, fuzzy
-#~ msgid "[closed]"
-#~ msgstr "[Fermé]"
-
-#, fuzzy
-#~ msgid "[deleted]"
-#~ msgstr "[Supprimé]"
-
-#, fuzzy
-#~ msgid "initial version"
-#~ msgstr "Premier changement"
-
-#, fuzzy
-#~ msgid "Daily"
-#~ msgstr "couriel"
-
-#, fuzzy
-#~ msgid "tags must be shorter than 20 characters"
-#~ msgstr "le titre doit contenir au moins %s caractères"
-
-#, fuzzy
-#~ msgid "commented a question"
-#~ msgstr "voir toutes les questions"
-
-#, fuzzy
-#~ msgid "edited an answer"
-#~ msgstr "Modifier réponse"
-
-#, fuzzy
-#~ msgid "this answer has been accepted to be correct"
-#~ msgstr "cette réponse a été choisie comme correcte"
-
-#, fuzzy
-#~ msgid "number of times"
-#~ msgstr "nombre actuel de votes"
-
-#, fuzzy
-#~ msgid "the answer has been accepted to be correct"
-#~ msgstr "cette réponse a été choisie comme correcte"
-
-#, fuzzy
-#~ msgid "subscribe to book RSS feed"
-#~ msgstr "s'abonner aux RSS feed"
-
-#, fuzzy
-#~ msgid "Frequently Asked Questions "
-#~ msgstr "Voir les questions fréquemment posées"
-
-#, fuzzy
-#~ msgid "Rep system summary"
-#~ msgstr "Résumé (mis à jour):"
-
-#, fuzzy
-#~ msgid "edit any answer"
-#~ msgstr "Modifier réponse"
-
-#, fuzzy
-#~ msgid "open any closed question"
-#~ msgstr "fermer la question"
-
-#, fuzzy
-#~ msgid "delete any comment"
-#~ msgstr "supprimer des commentaires"
-
-#, fuzzy
-#~ msgid "Subscription"
-#~ msgstr "abonnements"
-
-#, fuzzy
-#~ msgid "Create Account"
-#~ msgstr "Créez un compte"
-
-#, fuzzy
-#~ msgid " add comment"
-#~ msgstr "ajouter un commentaire"
-
-#, fuzzy
-#~ msgid "posted :"
-#~ msgstr "posté"
-
-#, fuzzy
-#~ msgid "update profile"
-#~ msgstr "a édité le profil"
-
-#, fuzzy
-#~ msgid "User profile"
-#~ msgstr "Modifier le profil de l'utilisateur"
-
-#, fuzzy
-#~ msgid "email subscription settings"
-#~ msgstr "paramètres d'abonnement"
 
